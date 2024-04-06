@@ -5,148 +5,148 @@ import './index.css';
 const cards = [
   {
     id: 1,
-    name: "Brainstorm",
+    name: "anna-elsa",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Brainstorm.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/anna-elsa.jpeg?raw=true",
   },
   {
     id: 2,
-    name: "Command",
+    name: "anna",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Command.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/anna.jpeg?raw=true",
   },
   {
     id: 3,
-    name: "Counterspell",
+    name: "applejack",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Counterspell.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/applejack.png?raw=true",
   },
   {
     id: 4,
-    name: "Daze",
+    name: "elsa",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Daze.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/elsa.jpeg?raw=true",
   },
   {
     id: 5,
-    name: "Force",
+    name: "fluttershy",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Force.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/fluttershy.png?raw=true",
   },
   {
     id: 6,
-    name: "Gush",
+    name: "ladybug",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Gush.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/ladybug.jpeg?raw=true",
   },
   {
     id: 7,
-    name: "Jace",
+    name: "mickey",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Jace.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/mickey.jpeg?raw=true",
   },
   {
     id: 8,
-    name: "Narset",
+    name: "minnie",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Narset.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/minnie.jpeg?raw=true",
   },
   {
     id: 9,
-    name: "Pact",
+    name: "pinky-pie",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Pact.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/pinky-pie.png?raw=true",
   },
   {
     id: 10,
-    name: "Ponder",
+    name: "rainbow-dash",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Ponder.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/rainbow-dash.png?raw=true",
   },
   {
     id: 11,
-    name: "Urza",
+    name: "rarity",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Urza.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/rarity.png?raw=true",
   },
   {
     id: 12,
-    name: "Visions",
+    name: "twilight-sparkle",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Visions.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/twilight-sparkle.png?raw=true",
   },
   {
     id: 13,
-    name: "Brainstorm",
+    name: "anna-elsa",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Brainstorm.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/anna-elsa.jpeg?raw=true",
   },
   {
     id: 14,
-    name: "Command",
+    name: "anna",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Command.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/anna.jpeg?raw=true",
   },
   {
     id: 15,
-    name: "Counterspell",
+    name: "applejack",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Counterspell.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/applejack.png?raw=true",
   },
   {
     id: 16,
-    name: "Daze",
+    name: "elsa",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Daze.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/elsa.jpeg?raw=true",
   },
   {
     id: 17,
-    name: "Force",
+    name: "fluttershy",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Force.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/fluttershy.png?raw=true",
   },
   {
     id: 18,
-    name: "Gush",
+    name: "ladybug",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Gush.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/ladybug.jpeg?raw=true",
   },
   {
     id: 19,
-    name: "Jace",
+    name: "mickey",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Jace.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/mickey.jpeg?raw=true",
   },
   {
     id: 20,
-    name: "Narset",
+    name: "minnie",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Narset.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/minnie.jpeg?raw=true",
   },
   {
     id: 21,
-    name: "Pact",
+    name: "pinky-pie",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Pact.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/pinky-pie.png?raw=true",
   },
   {
     id: 22,
-    name: "Ponder",
+    name: "rainbow-dash",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Ponder.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/rainbow-dash.png?raw=true",
   },
   {
     id: 23,
-    name: "Urza",
+    name: "rarity",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Urza.jpeg?raw=true",
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/rarity.png?raw=true",
   },
   {
     id: 24,
-    name: "Visions",
+    name: "twilight-sparkle",
     img:
-      "https://github.com/DanijelPlese/12monkeys/blob/development/hello-react/js-card-game/images/Visions.jpeg?raw=true",
-  },
+      "https://github.com/DanijelPlese/memory-game/blob/Development/memory-game/src/cards/twilight-sparkle.png?raw=true",
+  }
 ];
 const gridStyle = {
   maxWidth: 1100,
